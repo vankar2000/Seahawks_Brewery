@@ -1,0 +1,44 @@
+.main{
+    width:100%;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)25%),url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.container{
+    width:1000px;
+    margin: 30px auto;
+    display:grid;
+    grid-template-rows: 100px 200px 400px 100px;
+    grid-template-columns: repeat(4,250px);
+    grid-gap: 30px;
+}
+
+.container > *{
+   background: blueviolet; 
+   font-size: 30px;
+   color: white;
+   padding: 20px;
+}
+
+.header{
+    grid-column: 1/-1;
+}
+
+
+
+.main-content{
+    grid-row: 3/4;
+    grid-column: 1/span 3;
+    justify-content: stretch;
+}
+
+.sidebar{
+    grid-row: 2/span 2;
+    
+}
+
+.footer{
+    grid-column: 1/-1;
+}

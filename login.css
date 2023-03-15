@@ -1,0 +1,105 @@
+
+
+.main{
+    width:100%;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)25%),url(bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+
+form{
+    width: 250px;
+    height: 380px;
+    position: relative;
+    top: -10px;
+    left: 879px;
+    border-radius: 10px;
+    padding: 25px;
+    display: grid;
+    align-content: baseline;
+    background-color: rgb(112, 19, 66);
+
+}
+
+form h2{
+    width: 220px;
+    font-family: 'sans-serif';
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 8px;
+}
+
+form input{
+    width: 240px;
+    height: 35px;
+    background: rgb(104, 93, 93);
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'sans-serif';
+
+}
+
+form input:focus{
+    color: #fff;
+    font-family: Arial;
+}
+
+form .btn{
+    width: 40px;
+    height: 40px;
+    background: orangered ;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
+form .btn:hover{
+    background: #fff;
+    color: orangered;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+
+.icons ion-icon:hover{
+    color: red;
+}
+
+.container{
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex:initial;
+    justify-content:left;
+
+}
